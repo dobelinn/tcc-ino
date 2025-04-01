@@ -1,6 +1,6 @@
 const int analogPin = A0;     // Pino do sensor KY-037
 const int ledPin = 13;        // Pino do LED
-const int limiar = 515;       // Valor médio de silêncio que você encontrou
+const int limiar = 515;       // Valor médio de silêncio encontrado - pode aumentar ou diminuir um pouco (512 ~ 515)
 const int amostras = 10;      // Número de amostras para filtrar ruídos
 
 void setup() {
