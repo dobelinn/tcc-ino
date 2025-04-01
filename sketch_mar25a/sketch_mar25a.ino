@@ -52,3 +52,19 @@ int soma = 0;
   
 //   delay(delayLeitura);  // Reduza este valor para resposta mais rápida
 // }
+
+
+// Forma híbrida
+// void loop() {
+//   int valorRaw = analogRead(analogPin);
+  
+//   // Só aciona se o valor ultrapassar MUITO o limiar (ex: +20%)
+//   if (valorRaw > limiar * 1.2) {  // Ex: limiar = 512 → aciona acima de ~614
+//     digitalWrite(ledPin, HIGH);
+//     delay(50);  // Atraso mínimo
+//   } else {
+//     digitalWrite(ledPin, LOW);
+//   }
+  
+//   delay(10);  // Leitura mais rápida (10ms = 100 leituras/segundo)
+// }
